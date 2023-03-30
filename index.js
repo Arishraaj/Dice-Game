@@ -11,10 +11,10 @@ document.querySelectorAll("img")[1].setAttribute("src",randimages2);
 
 
 if (randomNumber1<randomNumber2){
-  document.querySelector("h1").innerHTML="Player 2 won";
+  document.querySelector("h1").innerHTML="Player 2 won !! 🥳";
 }
 else if(randomNumber1>randomNumber2){
-  document.querySelector("h1").innerHTML="Player 1 won";
+  document.querySelector("h1").innerHTML="Player 1 won !! 🥳";
 }
 else{
   document.querySelector("h1").innerHTML="Draw";
